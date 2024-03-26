@@ -19,7 +19,7 @@ export const Navbar = () => {
               <a
                 href="https://zeinirfansyah.me/"
                 id="brand"
-                className="text-xl font-semibold transition-all duration-500 text-night hover:text-diamond"
+                className="text-xl font-semibold transition-all duration-500 text-onyx hover:text-blueMunsell"
               >
                 ZEIN IRFANSYAH
               </a>
@@ -36,31 +36,31 @@ export const Navbar = () => {
             id="menu"
             className={`md:flex gap-5 ${
               isMenuOpen ? "" : "hidden"
-            } text-stone`}
+            } text-davysGrey`}
           >
-            <li className="text-stone hover:text-diamond transition-all duration-500">
+            <li className="text-dimGray hover:text-blueMunsell transition-all duration-500">
               <a href="#about">About</a>
             </li>
-            <li className="my-5 md:my-0 text-stone hover:text-diamond transition-all duration-500">
+            <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
               <a href="#about">Experience & Education</a>
             </li>
-            <li className="my-5 md:my-0 text-stone hover:text-diamond transition-all duration-500">
+            <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
               <a href="#certificates">Certificates</a>
             </li>
-            <li className="my-5 md:my-0 text-stone hover:text-diamond transition-all duration-500">
+            <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
               <a href="#skills">Skills</a>
             </li>
-            <li className="my-5 md:my-0 text-stone hover:text-diamond transition-all duration-500">
+            <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
               <a href="#showcases">Showcases</a>
             </li>
-            <li className="my-5 md:my-0 text-stone hover:text-diamond transition-all duration-500">
+            <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
               <a href="">Blog</a>
             </li>
             <li className="my-7 md:my-0 md:ms-7 transition-all duration-500">
               <a
                 href="assets/CV/ats_cv_zeinirfansyah_english.pdf"
                 download="ats_cv_zeinirfansyah_english.pdf"
-                className="bg-diamond text-white font-semibold py-4 px-6 hover:bg-white hover:text-diamond hover:border-diamond border-2 hover:outline-diamond outline-2 outline-dashed outline-offset-4 hover:rounded-xl  transition-all duration-500"
+                className="bg-blueMunsell text-white font-semibold py-4 px-6 hover:bg-white hover:text-blueMunsell hover:border-blueMunsell border-2 hover:outline-blueMunsell outline-2 outline-dashed outline-offset-4 hover:rounded-xl  transition-all duration-500"
               >
                 Download CV
               </a>
