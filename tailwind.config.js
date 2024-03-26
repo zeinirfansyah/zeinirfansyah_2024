@@ -10,7 +10,7 @@ export default {
       brick: "#D57F5D",
     },
     fontFamily: {
-      sans: ["Graphik", "sans-serif"],
+      sans: ["Nunito Sans", "sans-serif"],
       serif: ["Merriweather", "serif"],
     },
     extend: {},
