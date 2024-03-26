@@ -4,10 +4,14 @@ export default {
   theme: {
     colors: {
       white: "#ffffff",
-      diamond: "#0b90a0",
-      night: "#152C5B",
-      stone: "#00000092",
+      
+      dimGray: "#6A6A6A",
+      davysGray: "#4C4C4C",
+      onyx: "#404040",
+      black: "000000",
+
       brick: "#D57F5D",
+      blueMunsell: "#0b90a0",
     },
     fontFamily: {
       sans: ["Nunito Sans", "sans-serif"],
