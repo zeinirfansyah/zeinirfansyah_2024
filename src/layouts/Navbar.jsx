@@ -56,15 +56,6 @@ export const Navbar = () => {
             <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
               <a href="">Blog</a>
             </li>
-            <li className="my-7 md:my-0 md:ms-7 transition-all duration-500">
-              <a
-                href="assets/CV/ats_cv_zeinirfansyah_english.pdf"
-                download="ats_cv_zeinirfansyah_english.pdf"
-                className="bg-blueMunsell text-white font-semibold py-4 px-6 hover:bg-white hover:text-blueMunsell hover:border-blueMunsell border-2 hover:outline-blueMunsell outline-2 outline-dashed outline-offset-4 hover:rounded-xl  transition-all duration-500"
-              >
-                Download CV
-              </a>
-            </li>
           </ul>
         </nav>
       </div>
