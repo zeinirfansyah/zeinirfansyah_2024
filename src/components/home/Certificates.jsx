@@ -23,7 +23,7 @@ export const Certificates = () => {
                 {leftCertificates.map((experience) => (
                   <div key={experience.id} >
                     <div className="px-4 mx-2 my-6 border-l-4 border-brick transition-all duration-500">
-                      <h1 className="text-2xl font-bold">{experience.title}</h1>
+                      <h1 className="text-2xl font-semibold">{experience.title}</h1>
                       <h2 className="text-xl">
                         {experience.company} - {experience.period}
                       </h2>
