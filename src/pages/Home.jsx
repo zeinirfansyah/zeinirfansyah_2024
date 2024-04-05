@@ -1,4 +1,5 @@
 import { About } from "../components/home/About";
+import { Certificates } from "../components/home/Certificates";
 import { Experiences } from "../components/home/Experiences";
 import { Hero } from "../components/home/Hero";
 
@@ -14,6 +15,9 @@ export default function Home() {
         </div>
         <div className="About bg-blueMunsell">
           <Experiences />
+        </div>
+        <div className="About bg-white">
+          <Certificates />
         </div>
       </div>
     </>

@@ -1,0 +1,81 @@
+{
+  "certificates": [
+    {
+      "id": 11,
+      "title": "Belajar Membuat Aplikasi Web dengan React",
+      "company": "Dicoding Indonesia",
+      "period": "November 2023",
+      "description": "Mastering web frontend development with React JS, React UI Component, Stateful Compoenent, and Controlled Component."
+    },
+    {
+      "id": 10,
+      "title": "Belajar Membuat Frontend Web untuk Pemula",
+      "company": "Dicoding Indonesia",
+      "period": "November 2023",
+      "description": "Mastering Browser Object Model, Document Object Model, Event Handling, and Web Component, and Web Storage."
+    },
+    {
+      "id": 9,
+      "title": "Belajar Dasar Pemrograman JavaScript",
+      "company": "Dicoding Indonesia",
+      "period": "September 2023",
+      "description": "Mastering basic JavaScript, data structure, object-oriented programming, functional programming, JavaScript module, error handling, asynchronous JavaScript, Node Package Manager, and unit testing using Jest."
+    },
+    {
+      "id": 8,
+      "title": "Belajar Dasar Pemrograman Web",
+      "company": "Dicoding Indonesia",
+      "period": "September 2023",
+      "description": "Mastering web application development using HTML, CSS, and Responsive Layout concept with Flexbox."
+    },
+    {
+      "id": 7,
+      "title": "Application & Use Case Professional Certification",
+      "company": "Altair RapidMiner",
+      "period": "August 2023",
+      "description": "Mastering application management and use case for software development."
+    },
+    {
+      "id": 6,
+      "title": "React Js Web Frontend Bootcamp",
+      "company": "SanberCode",
+      "period": "April 2023",
+      "description": "Mastering web frontend development with React JS, basic web development with HTML and CSS, Basic JavaScript, Modern JavaScript (Asyncrhronous, Object Oriented Programming, and ES6), and Version Control System with Git."
+    },
+    {
+      "id": 5,
+      "title": "How to Build a Product Requirment Document",
+      "company": "Synrgy Academy",
+      "period": "October 2023",
+      "description": "Mastering product requirement documentation for software development."
+    },
+    {
+      "id": 4,
+      "title": "Android App Development with Kotlin",
+      "company": "Udemy",
+      "period": "October 2022",
+      "description": "Mastering android app development with Kotlin."
+    },
+    {
+      "id": 3,
+      "title": "The Complete Java Programming",
+      "company": "Udemy",
+      "period": "April 2022",
+      "description": "Mastering basic Java Programming and Object Oriented Programing with Java."
+    },
+    {
+      "id": 2,
+      "title": "PHP & MySQL Certification Course",
+      "company": "YouAccel",
+      "period": "November 2020",
+      "description": "Mastering Database Management System with MySQL, Database Design, SQL Concept, Implementation with PHP."
+    },
+    {
+      "id": 1,
+      "title": "Web Development for Beginner",
+      "company": "Udemy",
+      "period": "Juny 2020",
+      "description": "Mastering basic web development with HTML, CSS, PHP, and MySQL."
+    }
+  ]
+}
