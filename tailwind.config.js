@@ -12,7 +12,7 @@ export default {
       black: "000000",
 
       brick: "#D57F5D",
-      blueMunsell: "#0b90a0",
+      blueMunsell: "#10808F",
       blueAirForce: "#004D61",
     },
     fontFamily: {

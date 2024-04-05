@@ -1,0 +1,61 @@
+{
+  "hardskills": [
+    {
+      "id": 5,
+      "title": "Web Development",
+      "description":
+        "Proficient in developing and implementing REST API in web applications using React JS, Laravel, and Express JS."
+    },
+  
+    {
+      "id": 4,
+      "title": "Database Management",
+      "description":
+        "Able to design and build SQL or NoSQL databases using MySQL, PostgreSQL, and Firebase."
+    },
+  
+    {
+      "id": 2,
+      "title": "REST API Implementation",
+      "description":
+        "Capable of integrating REST API into web applications."
+    },
+  
+    {
+      "id": 1,
+      "title": "User Interface Design",
+      "description":
+        "Proficient in creating and implementing user interface designs using Figma."
+    }
+  ],
+
+  "softskills": [
+    {
+      "id": 5,
+      "title": "Problem-Solving",
+      "description":
+        "Adept at identifying effective solutions to challenges and obstacles."
+    },
+  
+    {
+      "id": 4,
+      "title": "Teamwork",
+      "description":
+        "Able to work in a team and work independently.."
+    },
+  
+    {
+      "id": 2,
+      "title": "Analytical Thinking",
+      "description":
+        "Proficient in the analysis of information and the resolution of complex problems"
+    },
+  
+    {
+      "id": 1,
+      "title": "Creative",
+      "description":
+        "Valued for creative thinking and innovative problem-solving abilities."
+    }
+  ]
+}
