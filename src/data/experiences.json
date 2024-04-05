@@ -1,0 +1,63 @@
+{
+  "experiences": [
+    {
+      "id": 4,
+      "title": "Web Developer",
+      "company": "Freelance",
+      "period": "October 2023 - Present",
+      "description": "Building a web-based application based on client requests."
+    },
+    {
+      "id": 3,
+      "title": "Project-Based Intern : Frontend VIX Core Initiative",
+      "company": "Core Initiative Studio",
+      "period": "April 2023 - May 2023",
+      "description": "Implementing the design into web programming code using Vue.js, conducting unit testing using Jest, and learning the fundamentals of CI/CD."
+    },
+    {
+      "id": 2,
+      "title": "Web Developer Internship",
+      "company": "SMKS Daarul Abroor Tasikmalaya",
+      "period": "April 2022 - March 2023",
+      "description": "Building and developing a web-based library information system using PHP and MySQL."
+    },
+    {
+      "id": 1,
+      "title": "Comitee of KSPM Goes to School Program",
+      "company": "Kelompok Studi Pasar Modal UTY",
+      "period": "March 2022 - April 2022",
+      "description": "Creating a poster design for the 'Goes to School' event, developing a concept for virtual Zoom backgrounds, and designing banners and certificates for the 'Goes to School' activity."
+    }
+  ],
+
+  "educations": [
+    {
+      "id": 4,
+      "title": "Harisenin.com",
+      "departement": "Fullstack Development Bootcamp",
+      "period": "February 2024 - Present",
+      "description": "Learn how to develop a fullstack web application and work together as a team to develop the project."
+    },
+    {
+      "id": 3,
+      "title": "Synrgy Academy",
+      "departement": "Mobile App Development Bootcamp",
+      "period": "September 2022 - December 2022 (DO)",
+      "description": "Learn how to develop android-based mobile applications using Kotlin."
+    },
+    {
+      "id": 2,
+      "title": "Universitas Teknologi Yogyakarta",
+      "departement": "Bachelor's degree, Informatics",
+      "period": "2019 - 2023",
+      "description": "GPA of 3.78"
+    },
+    {
+      "id": 1,
+      "title": "SMA Negeri 6 Kota Tasikmalaya",
+      "departement": "Natural Science",
+      "period": "2016 - 2019",
+      "description": ""
+    }
+  ]
+}
