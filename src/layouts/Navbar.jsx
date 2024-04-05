@@ -42,7 +42,7 @@ export const Navbar = () => {
               <a href="#about">About</a>
             </li>
             <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
-              <a href="#about">Experience & Education</a>
+              <a href="#experiences">Experience & Education</a>
             </li>
             <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
               <a href="#certificates">Certificates</a>
