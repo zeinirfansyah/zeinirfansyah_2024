@@ -5,14 +5,13 @@ export const About = () => {
     <div className="max-w-7xl mx-auto px-4 py-12">
       <div className="flex flex-col lg:flex-row gap-10 items-center">
         <div
-          id="about-img"
           className="flex justify-center items-center w-full lg:w-1/3"
         >
           <div className="w-1/2 lg:w-3/4 p-6 shadow-xl outline-dashed outline-2 outline-blueMunsell -outline-offset-8 lg:-rotate-3 lg:hover:rotate-0 transition-all duration-500">
             <img src={foto2} alt="zein 2023" className="" />
           </div>
         </div>
-        <div id="about-text" className="flex flex-col gap-2 w-full lg:w-2/3">
+        <div className="flex flex-col gap-2 w-full lg:w-2/3">
           <h1 className="text-xl lg:text-2xl font-semibold text-blueAirForce">
             BACKGROUND
           </h1>

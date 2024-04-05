@@ -10,7 +10,6 @@ export const Hero = () => {
     <div className="max-w-7xl mx-auto px-4 py-12">
       <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center">
         <div
-          id="hero-desc"
           className="flex flex-col gap-1 lg:gap-4 items-center lg:items-start lg:w-1/2"  
         >
           <h1 className="text-2xl lg:text-5xl font-bold transition-all duration-500 text-center lg:text-start bg-none lg:bg-blueMunsell lg:text-white lg:p-2 lg:outline-dashed outline-2 outline-blueMunsell outline-offset-4">
@@ -61,7 +60,6 @@ export const Hero = () => {
             </div>
         </div>
         <div
-          id="hero-img"
           className="lg:w-1/2 flex justify-center items-center order-first lg:order-last py-7 lg:py-12"
         >
           <div className="flex flex-col gap-5 w-[75%] outline-dashed outline-2 outline-offset-8 lg:-outline-offset-8 outline-blueMunsell bg-white lg:rotate-3 lg:hover:rotate-0 transition-all duration-500 p-4 lg:p-8 shadow-xl">

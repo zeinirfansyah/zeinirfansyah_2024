@@ -51,11 +51,9 @@ export const Navbar = () => {
               <a href="#skills">Skills</a>
             </li>
             <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
-              <a href="#showcases">Showcases</a>
+              <a href="#projects">Showcases</a>
             </li>
-            <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
-              <a href="">Blog</a>
-            </li>
+          
           </ul>
         </nav>
       </div>

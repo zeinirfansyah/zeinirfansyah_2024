@@ -10,7 +10,6 @@ export const Skills = () => {
           </h1>
         </div>
         <div
-          id="hardskill"
           className="grid grid-cols-1 lg:grid-cols-4 gap-5 lg:gap-10 "
         >
           {skill_data.hardskills.map((skill) => (
@@ -24,7 +23,6 @@ export const Skills = () => {
         </div>
         <hr className=" border border-white my-3" />
         <div
-          id="softskill"
           className="grid grid-cols-1 lg:grid-cols-4 gap-5 lg:gap-10"
         >
           {skill_data.softskills.map((skill) => (
