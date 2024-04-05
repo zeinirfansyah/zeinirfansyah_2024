@@ -2,26 +2,30 @@ import { About } from "../components/home/About";
 import { Certificates } from "../components/home/Certificates";
 import { Experiences } from "../components/home/Experiences";
 import { Hero } from "../components/home/Hero";
+import { Projects } from "../components/home/Projects";
 import { Skills } from "../components/home/Skills";
 
 export default function Home() {
   return (
     <>
       <div className="Home">
-        <div className="Hero bg-antiFlashWhite">
+        <div id="hero" className=" bg-antiFlashWhite">
           <Hero />
         </div>
-        <div className="About bg-white">
+        <div id="about" className=" bg-white">
           <About />
         </div>
-        <div className="About bg-blueMunsell">
+        <div id="experiences" className=" bg-blueMunsell">
           <Experiences />
         </div>
-        <div className="About bg-white">
+        <div id="certificates" className=" bg-white">
           <Certificates />
         </div>
-        <div className="About bg-blueMunsell">
+        <div id="skills" className=" bg-blueMunsell">
           <Skills />
+        </div>
+        <div id="projects" className=" bg-antiFlashWhite">
+          <Projects />
         </div>
       </div>
     </>

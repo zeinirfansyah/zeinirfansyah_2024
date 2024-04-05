@@ -1,0 +1,41 @@
+{
+    "projects": [
+      {
+        "id": 6,
+        "title": "Shhh (On Going)",
+        "description": "Shhh is a social media platform designed to collect anonymous messages",
+        "tech-stack":"Breeze, Laravel",
+        "url": ""
+      },
+      {
+        "id": 5,
+        "title": "WorkWanderlust",
+        "description": "WorkWanderlust is a platform where people can find their remote job. This project was made as part of a mini-project with Harisenin.com bootcamp.",
+        "tech-stack":"Tailwind, JavaScript",
+        "url": "https://workwanderlust.zeinirfansyah.me/"
+      },
+      {
+        "id": 4,
+        "title": "Sistem Informasi Berbasis Web Dinas Pendidikan dan Kebudayaan Kabupaten Natuna",
+        "description": "System for uploading and managing documents for Dinas Pendidikan dan Kebudayaan Natuna",
+        "tech-stack":"Bootstrap, Laravel, MySQL",
+        "url": "https://perencanaandisdiknatuna.creonexa.site/"
+      },
+      {
+        "id": 3,
+        "title": "Gemini Implementation to Discord Bot",
+        "description": "Build an AI based discord chat bot.",
+        "tech-stack":"Node JS, Discord.js, Gemini API",
+        "url": "https://github.com/zeinirfansyah/discord-gemini_ai"
+      },
+      {
+        "id": 2,
+        "title": "Sistem Informasi Manajemen Inventori Perpustakaan",
+        "description": "Web-based library information system based on PHP and MySQL.",
+        "tech-stack":"Bootstrap, PHP, MySQL",
+        "url": "https://siperpus.creonexa.site/petugas.php"
+      }
+     
+    ]
+  }
+  
