@@ -16,7 +16,7 @@ export const Certificates = () => {
           <div id="certificates-list" className="flex flex-col">
             <div className="bg-brick px-4 py-2 mt-7 w-fit mx-2 mb-4 outline-dashed outline-2 outline-offset-[4px] outline-blueAirForce">
               <h1 className="text-2xl lg:text-3xl font-bold text-white transition-all duration-500">
-                Certificates
+                CERTIFICATES
               </h1>
             </div>
             <div className="flex flex-col lg:flex-row">

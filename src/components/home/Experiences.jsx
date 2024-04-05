@@ -14,7 +14,7 @@ export const Experiences = () => {
           >
             <div className="bg-brick px-4 py-2 mt-7 w-fit mx-2 mb-4 outline-dashed outline-2 outline-offset-[4px] outline-white">
               <h1 className="text-2xl lg:text-3xl font-bold text-white transition-all duration-500">
-                Experiences
+                EXPERIENCES
               </h1>
             </div>
             {experience_data.experiences.map((experience) => (
@@ -46,7 +46,7 @@ export const Experiences = () => {
           >
             <div className="bg-brick px-4 py-2 mt-7 w-fit mx-2 mb-4 outline-dashed outline-2 outline-offset-[4px] outline-white">
               <h1 className="text-2xl lg:text-3xl font-bold text-white transition-all duration-500">
-                Educations
+                EDUCATIONS
               </h1>
             </div>
             {experience_data.educations.map((education) => (
