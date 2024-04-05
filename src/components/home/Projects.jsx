@@ -22,8 +22,8 @@ export const Projects = () => {
                   className="flex flex-col gap-2 p-4 m-6 bg-white border-[#d7dfde] border-2 outline-dashed outline-2 outline-offset-4 outline-blueMunsell hover:rounded-xl hover:-rotate-3 transition-all duration-500"
                 >
                   <h1 className="text-xl">{project.title}</h1>
-                  <p className="text-sm">{project.description}</p>
-                  <p className="text-sm">{project["tech-stack"]}</p>
+                  <p className="text-l">{project.description}</p>
+                  <p className="text-l">{project["tech-stack"]}</p>
                 </a>
               ))}
 

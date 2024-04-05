@@ -15,7 +15,7 @@ export const Skills = () => {
           {skill_data.hardskills.map((skill) => (
             <div key={skill.id}>
               <div className="bg-blueMunsell text-white transition-all duration-500">
-                <h1 className="text-xl font-bold">{skill.title}</h1>
+                <h1 className="text-2xl font-bold">{skill.title}</h1>
                 <p className="text-l">{skill.description}</p>
               </div>
             </div>
@@ -28,7 +28,7 @@ export const Skills = () => {
           {skill_data.softskills.map((skill) => (
             <div key={skill.id}>
               <div className="bg-blueMunsell text-white btransition-all duration-500">
-                <h1 className="text-xl font-bold">{skill.title}</h1>
+                <h1 className="text-2xl font-bold">{skill.title}</h1>
                 <p className="text-l">{skill.description}</p>
               </div>
             </div>
