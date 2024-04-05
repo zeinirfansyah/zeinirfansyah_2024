@@ -1,11 +1,23 @@
 import "./App.css";
-import { Suspense } from "react";
+import { Suspense, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Navbar } from "./layouts/Navbar";
 import Footer from "./layouts/Footer";
 import Home from "./pages/Home";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS CSS
 
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+        duration: 1000,
+        easing: 'ease-in-out',
+        mirror: false,
+      }
+    );
+  }, []);
+
   return (
     <>
       <BrowserRouter>

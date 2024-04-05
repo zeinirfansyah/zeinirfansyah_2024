@@ -7,7 +7,7 @@ export const Certificates = () => {
   const rightCertificates = certificate_data.certificates.slice(halfLength);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12">
+    <div  data-aos="zoom-in-up" className="max-w-7xl mx-auto px-4 py-12">
       <div className="flex flex-col lg:flex-row justify-center lg:justify-between">
         <div
           className="flex flex-col gap-1 lg:gap-4 items-center lg:items-start"
