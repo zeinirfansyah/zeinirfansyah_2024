@@ -13,6 +13,7 @@ export default {
 
       brick: "#D57F5D",
       blueMunsell: "#0b90a0",
+      blueAirForce: "#004D61",
     },
     fontFamily: {
       sans: ["Nunito Sans", "sans-serif"],
