@@ -7,11 +7,11 @@ import instagram_icon from "../../assets/icons/instagram_outline_icon.svg";
 
 export const Hero = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 ">
-      <div className="min-h-[80vh] flex flex-col lg:flex-row justify-center lg:justify-between items-center">
+    <div className="max-w-7xl mx-auto px-4 py-12">
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center">
         <div
           id="hero-desc"
-          className="flex flex-col gap-1 lg:gap-4 items-center lg:items-start lg:w-1/2"
+          className="flex flex-col gap-1 lg:gap-4 items-center lg:items-start lg:w-1/2"  
         >
           <h1 className="text-2xl lg:text-5xl font-bold transition-all duration-500 text-center lg:text-start bg-none lg:bg-blueMunsell lg:text-white lg:p-2 lg:outline-dashed outline-2 outline-blueMunsell outline-offset-4">
             GREETINGS!
@@ -19,11 +19,12 @@ export const Hero = () => {
           <TypeAnimation
             cursor={true}
             sequence={["I AM ZEIN IRFANSYAH."]}
+            speed={10}
             wrapper="h1"
-            className="font-bold text-2xl lg:text-5xl transition-all duration-500 text-center lg:text-start"
+            className="font-semibold text-2xl lg:text-5xl transition-all duration-500 text-center lg:text-start"
           />
             <hr className="w-1/2 border-2 my-2 border-blueMunsell transition-all duration-500" />
-          <h1 className="text-xl lg:text-3xl transition-all duration-500 text-center lg:text-start">SOFTWARE ENGINEER</h1>
+          <h1 className="text-xl lg:text-3xl transition-all duration-500 text-center lg:text-start font-sans">SOFTWARE ENGINEER</h1>
           <a href="mailto:mail@zeinirfansyah.me" className="flex justify-center items-center bg-blueMunsell border-2 border-blueMunsell text-white hover:rounded-xl hover:bg-antiFlashWhite hover:text-blueMunsell outline-2 outline-blueMunsell outline-dashed  outline-offset-4 transition-all duration-500 w-full lg:w-1/4 py-1 mt-2 ">
             Let&apos;s Talk
           </a>
