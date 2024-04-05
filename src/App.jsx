@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Navbar } from "./layouts/Navbar";
 import Footer from "./layouts/Footer";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <main>
           <Suspense fallback={<div>Loading...</div>}>
             <Routes>
-              <Route path="/" element={<div className="h-screen max-w-7xl mx-auto flex justify-center items-center">Home</div>} />
+              <Route path="/" element=<Home /> />
             </Routes>
           </Suspense>
         </main>
