@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <header className="shadow bg-white sticky top-0 z-10">
+        <header className="shadow bg-antiFlashWhite sticky top-0 z-10">
           <Navbar />
         </header>
 
