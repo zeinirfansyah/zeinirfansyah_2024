@@ -51,7 +51,7 @@ function App() {
             </Routes>
           </Suspense>
         </main>
-        <footer className="bg-white border-t-2 border-antiFlashWhite">
+        <footer className="bg-white border border-antiFlashWhite">
           <Footer />
         </footer>
       </BrowserRouter>

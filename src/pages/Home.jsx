@@ -27,7 +27,7 @@ export default function Home() {
         <div id="skills" className=" bg-blueMunsell">
           <Skills />
         </div>
-        <div id="projects" className=" bg-antiFlashWhite">
+        <div id="projects" className=" bg-gradient-to-b from-antiFlashWhite to-white">
           <Projects />
         </div>
       </div>
