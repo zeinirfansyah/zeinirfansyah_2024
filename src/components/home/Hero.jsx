@@ -62,7 +62,7 @@ export const Hero = () => {
         <div
           className="lg:w-1/2 flex justify-center items-center order-first lg:order-last py-7 lg:py-12"
         >
-          <div className="flex flex-col gap-5 w-[75%] outline-dashed outline-2 outline-offset-8 lg:-outline-offset-8 outline-blueMunsell bg-white lg:rotate-3 lg:hover:rotate-0 transition-all duration-500 p-4 lg:p-8 shadow-xl">
+          <div className="flex flex-col gap-5 w-[75%] outline-dashed outline-2 outline-offset-8 lg:-outline-offset-8 outline-blueMunsell bg-white lg:rotate-3 p-4 lg:p-8 transition-all duration-500 shadow-xl lg:animate-float lg:hover:animate-none lg:hover:rotate-0">
             <img src={foto1} alt="Zein Irfansyah 2023" />
             <div className="desc hidden lg:flex">
               <p>
