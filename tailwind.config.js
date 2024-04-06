@@ -4,7 +4,7 @@ export default {
   theme: {
     colors: {
       white: "#ffffff",
-      antiFlashWhite: "#F2F5F7",
+      antiFlashWhite: "#EAECEE",
 
       dimGray: "#6A6A6A",
       davysGray: "#4C4C4C",

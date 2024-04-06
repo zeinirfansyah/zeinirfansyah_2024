@@ -20,7 +20,7 @@ function App() {
       navbar.style.transition = "0.5s";
     } else {
       // change class
-      navbar.style.backgroundColor = "#F2F5F7"; //antiFlashWhite
+      navbar.style.backgroundColor = "#EAECEE"; //antiFlashWhite
       navbar.style.transition = "0.5s";
     }
   }

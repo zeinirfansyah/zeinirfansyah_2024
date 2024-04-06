@@ -14,7 +14,7 @@ export const Certificates = () => {
         >
           <div className="flex flex-col">
             <div className="bg-brick px-4 py-2 mt-7 w-fit mx-2 mb-4 outline-dashed outline-2 outline-offset-[4px] outline-blueAirForce">
-              <h1 className="text-2xl lg:text-3xl font-bold text-white transition-all duration-500">
+              <h1 className="text-xl lg:text-2xl font-bold text-white transition-all duration-500">
                 CERTIFICATES
               </h1>
             </div>
@@ -23,8 +23,8 @@ export const Certificates = () => {
                 {leftCertificates.map((experience) => (
                   <div key={experience.id} >
                     <div className="px-4 mx-2 my-6 border-l-4 border-brick transition-all duration-500">
-                      <h1 className="text-2xl font-semibold">{experience.title}</h1>
-                      <h2 className="text-xl">
+                      <h1 className="text-xl font-semibold">{experience.title}</h1>
+                      <h2 className="text-l mb-2">
                         {experience.company} - {experience.period}
                       </h2>
                       <p className="text-l">{experience.description}</p>
@@ -36,8 +36,8 @@ export const Certificates = () => {
                 {rightCertificates.map((experience) => (
                   <div key={experience.id}>
                     <div className="px-4 mx-2 my-6 border-l-4 border-brick transition-all duration-500">
-                      <h1 className="text-2xl font-semibold">{experience.title}</h1>
-                      <h2 className="text-xl">
+                      <h1 className="text-xl font-semibold">{experience.title}</h1>
+                      <h2 className="text-l mb-2">
                         {experience.company} - {experience.period}
                       </h2>
                       <p className="text-l">{experience.description}</p>

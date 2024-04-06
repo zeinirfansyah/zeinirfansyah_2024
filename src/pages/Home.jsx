@@ -9,7 +9,10 @@ export default function Home() {
   return (
     <>
       <div className="Home">
-        <div id="hero" className=" bg-antiFlashWhite">
+        <div
+          id="hero"
+          className="bg-gradient-to-b from-antiFlashWhite to-white"
+        >
           <Hero />
         </div>
         <div id="about" className=" bg-white">

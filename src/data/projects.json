@@ -16,7 +16,7 @@
       },
       {
         "id": 4,
-        "title": "Sistem Informasi Berbasis Web Dinas Pendidikan dan Kebudayaan Kabupaten Natuna",
+        "title": "Simbek Natuna",
         "description": "System for uploading and managing documents for Dinas Pendidikan dan Kebudayaan Natuna",
         "tech-stack":"Bootstrap, Laravel, MySQL",
         "url": "https://perencanaandisdiknatuna.creonexa.site/"

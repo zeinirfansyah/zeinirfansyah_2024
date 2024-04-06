@@ -9,7 +9,7 @@ export const Projects = () => {
         >
           <div className="flex flex-col">
             <div className="bg-brick px-4 py-2 mt-7 w-fit mx-2 mb-4 outline-dashed outline-2 outline-offset-[4px] outline-blueAirForce">
-              <h1 className="text-2xl lg:text-3xl font-bold text-white transition-all duration-500">
+              <h1 className="text-xl lg:text-2xl font-bold text-white transition-all duration-500">
                 PROJECTS
               </h1>
             </div>
@@ -19,11 +19,11 @@ export const Projects = () => {
                   key={project.id}
                   href={project.url}
                   target="_blank"
-                  className="flex flex-col gap-2 p-4 m-6 bg-white border-[#d7dfde] border-2 outline-dashed outline-2 outline-offset-4 outline-blueMunsell hover:rounded-xl hover:-rotate-3 transition-all duration-500"
+                  className="flex flex-col gap-1 p-4 m-6 bg-white border-[#d7dfde] border-2 outline-dashed outline-2 outline-offset-4 outline-blueMunsell hover:rounded-xl hover:-rotate-3 transition-all duration-500"
                 >
                   <h1 className="text-xl">{project.title}</h1>
+                  <p className="text-l mb-1">{project["tech-stack"]}</p>
                   <p className="text-l">{project.description}</p>
-                  <p className="text-l">{project["tech-stack"]}</p>
                 </a>
               ))}
 
