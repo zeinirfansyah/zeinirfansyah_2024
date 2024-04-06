@@ -19,7 +19,24 @@ export default {
       sans: ["Nunito Sans", "sans-serif"],
       serif: ["Merriweather", "serif"],
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        float: {
+          "0%": {
+            transform: "translateY(0%), rotate(3deg)",
+          },
+          "50%": {
+            transform: "translateY(-5%)",
+          },
+          "100%": {
+            transform: "translateY(0%), rotate(3deg)",
+          }
+        },
+      },
+      animation: {
+        float: "float 6s ease-in-out infinite",
+      },
+    },
   },
   plugins: [],
 };
