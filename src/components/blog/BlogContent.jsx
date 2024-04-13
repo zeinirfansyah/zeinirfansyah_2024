@@ -63,8 +63,8 @@ export const BlogContent = () => {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4">
-      <div className="flex flex-wrap gap-4 my-2">
+    <div className="max-w-7xl mx-auto px-4 ">
+      <div className="flex flex-wrap gap-4">
         {posts.map((post, index) => (
           <div key={post.id} className="flex justify-center">
             <ContentCard
