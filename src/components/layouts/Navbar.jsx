@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,21 +40,23 @@ export const Navbar = () => {
             } text-davysGrey`}
           >
             <li className="text-dimGray hover:text-blueMunsell transition-all duration-500">
-              <a href="#about">About</a>
+              <a href="/#about">About</a>
             </li>
             <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
-              <a href="#experiences">Experience & Education</a>
+              <a href="/#experiences">Experience & Education</a>
             </li>
             <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
-              <a href="#certificates">Certificates</a>
+              <a href="/#certificates">Certificates</a>
             </li>
             <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
-              <a href="#skills">Skills</a>
+              <a href="/#skills">Skills</a>
             </li>
             <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
-              <a href="#projects">Showcases</a>
+              <a href="/#projects">Showcases</a>
             </li>
-          
+            <li className="my-5 md:my-0 text-dimGray hover:text-blueMunsell transition-all duration-500">
+              <Link to="/blog">Blog</Link>
+            </li>
           </ul>
         </nav>
       </div>

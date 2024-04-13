@@ -1,11 +1,12 @@
 import "./App.css";
 import { Suspense, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Navbar } from "./layouts/Navbar";
-import Footer from "./layouts/Footer";
+import { Navbar } from "./components/layouts/Navbar";
+import Footer from "./components/layouts/Footer";
 import Home from "./pages/Home";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS
+import { Blog } from "./pages/Blog";
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
           <Suspense fallback={<div>Loading...</div>}>
             <Routes>
               <Route path="/" element=<Home /> />
+              <Route path="/blog" element={<Blog />} />
             </Routes>
           </Suspense>
         </main>
