@@ -42,12 +42,11 @@ export const BlogContent = () => {
   useEffect(() => {
     const get_links = async () => {
       const mediaUrls = await Promise.all(posts.map(fetchFeaturedMedia));
-   
+
       setFeaturedMedia(mediaUrls);
     };
 
     get_links();
-    
   }, [posts]);
 
   function removeTagsAndEntity(text) {
@@ -62,24 +61,32 @@ export const BlogContent = () => {
     return str.slice(0, num) + "...";
   }
 
-  return (
-    <div className="max-w-7xl mx-auto px-4 ">
-      <div className="flex flex-wrap gap-4">
-        {posts.map((post, index) => (
-          <div key={post.id} className="flex justify-center">
-            <ContentCard
-              image={featuredMedia[index]}
-              date={post.date}
-              title={post.title.rendered}
-              excerpt={truncateString(
-                removeTagsAndEntity(post.excerpt.rendered),
-                100
-              )}
-              author="Zein Irfansyah"
-            />
+  function formatDate(postDate) {
+    const date = new Date(postDate);
+    return `${date.getDate()} / ${date.getMonth() + 1} / ${date.getFullYear()}`;
+  }
 
-          </div>
-        ))}
+  return (
+    <div className="max-w-7xl mx-auto px-4 py-7">
+      <div className="flex flex-wrap justify-center items-center gap-4 min-h-[70vh]">
+        {posts.length > 0 ? (
+          posts.map((post, index) => (
+            <div key={post.id} data-aos="zoom-in-up" data-aos-duration="1000">
+              <ContentCard
+                image={featuredMedia[index]}
+                date={formatDate(post.date)}
+                title={post.title.rendered}
+                excerpt={truncateString(
+                  removeTagsAndEntity(post.excerpt.rendered),
+                  100
+                )}
+                author="Zein Irfansyah"
+              />
+            </div>
+          ))
+        ) : (
+          <p>No posts found.</p>
+        )}
       </div>
     </div>
   );
