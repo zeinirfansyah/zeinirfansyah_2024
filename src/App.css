@@ -55,3 +55,9 @@
   margin : 0 auto;
   border-radius: 4px !important;
 }
+
+@media screen and (max-width: 768px) {
+  .blog-content img, .blog-content figure {
+    max-width: 100%;
+  }
+}
