@@ -52,7 +52,7 @@
 
 .blog-content img, .blog-content figure {
   max-width: 540px;
-  margin : 0 auto;
+  margin : 1rem auto;
   border-radius: 4px !important;
 }
 
