@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS
 import { Blog } from "./pages/Blog";
+import { BlogContent } from "./pages/BlogContent";
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/:id" element={<BlogContent />} />
             </Routes>
           </Suspense>
         </main>
