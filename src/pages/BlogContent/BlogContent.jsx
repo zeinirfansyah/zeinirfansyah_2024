@@ -1,23 +1,7 @@
-import axios from "axios";
-import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { usePost } from '../../hooks/usePost';
 
 export const BlogContent = () => {
-  const [post, setPost] = useState(null);
-  const { id } = useParams();
-
-  useEffect(() => {
-    axios
-      .get(
-        `https://creonexa.zeinirfansyah.me/wp-json/wp/v2/zeinirfansyah/${id}`
-      )
-      .then((res) => {
-        setPost(res.data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, [id]);
+  const post = usePost();
 
   return (
     <>
@@ -35,11 +19,11 @@ export const BlogContent = () => {
               <div className="flex flex-col">
                 <span className="text-dimGray">Author: Zein Irfansyah</span>
                 <span className="text-dimGray">
-                  {new Date(post.date).toLocaleDateString("en-US", {
-                    day: "numeric",
-                    month: "long",
-                    year: "numeric",
-                    timeZone: "Asia/Jakarta",
+                  {new Date(post.date).toLocaleDateString('en-US', {
+                    day: 'numeric',
+                    month: 'long',
+                    year: 'numeric',
+                    timeZone: 'Asia/Jakarta',
                   })}
                 </span>
               </div>
