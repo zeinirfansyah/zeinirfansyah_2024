@@ -1,4 +1,4 @@
-import { checkPropTypes } from "prop-types";
+import PropTypes from "prop-types";
 import { Header } from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import { Suspense, useEffect } from "react";
@@ -42,5 +42,5 @@ export const Layout = ({ children }) => {
 };
 
 Layout.propTypes = {
-  children: checkPropTypes.node,
+  children: PropTypes.node,
 };
