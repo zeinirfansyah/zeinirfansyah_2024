@@ -1,4 +1,4 @@
-import experience_data from "../../data/experiences.json";
+import experience_data from "../../../data/experiences.json";
 
 export const Experiences = () => {
   return (

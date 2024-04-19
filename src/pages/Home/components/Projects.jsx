@@ -1,4 +1,4 @@
-import project_data from "../../data/projects.json";
+import project_data from "../../../data/projects.json";
 
 export const Projects = () => {
   return (

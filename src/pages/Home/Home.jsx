@@ -1,9 +1,11 @@
-import { About } from "../components/home/About";
-import { Certificates } from "../components/home/Certificates";
-import { Experiences } from "../components/home/Experiences";
-import { Hero } from "../components/home/Hero";
-import { Projects } from "../components/home/Projects";
-import { Skills } from "../components/home/Skills";
+import { About } from "./components/About"
+import { Certificates } from "./components/Certificates";
+import { Experiences } from "./components/Experiences";
+import { Hero } from "./components/Hero";
+import { Projects } from "./components/Projects";
+import { Skills } from "./components/Skills";
+
+
 
 export default function Home() {
   return (

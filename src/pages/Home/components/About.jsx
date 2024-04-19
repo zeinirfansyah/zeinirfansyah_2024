@@ -1,4 +1,4 @@
-import foto2 from "../../assets/images/zein_sidang.jpg";
+import foto2 from "../../../assets/images/zein_sidang.jpg";
 
 export const About = () => {
   return (

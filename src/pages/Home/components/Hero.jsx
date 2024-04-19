@@ -1,8 +1,8 @@
 import { TypeAnimation } from "react-type-animation";
-import foto1 from "../../assets/images/zein.jpg";
-import github_icon from "../../assets/icons/github_outline_icon.svg";
-import linkedin_icon from "../../assets/icons/linkedin_outline_icon.svg";
-import instagram_icon from "../../assets/icons/instagram_outline_icon.svg";
+import foto1 from "../../../assets/images/zein.jpg";
+import github_icon from "../../../assets/icons/github_outline_icon.svg";
+import linkedin_icon from "../../../assets/icons/linkedin_outline_icon.svg";
+import instagram_icon from "../../../assets/icons/instagram_outline_icon.svg";
 
 
 export const Hero = () => {

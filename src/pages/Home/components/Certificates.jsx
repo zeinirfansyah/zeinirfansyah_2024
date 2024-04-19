@@ -1,4 +1,4 @@
-import certificate_data from "../../data/certificates.json";
+import certificate_data from "../../../data/certificates.json";
 
 export const Certificates = () => {
   // data bagi dua

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-export const Navbar = () => {
+export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -9,7 +9,7 @@ export const Navbar = () => {
   };
 
   return (
-    <>
+    <header className="shadow bg-antiFlashWhite sticky top-0 z-10">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <nav
           id="navbar"
@@ -60,6 +60,6 @@ export const Navbar = () => {
           </ul>
         </nav>
       </div>
-    </>
+    </header>
   );
 };
