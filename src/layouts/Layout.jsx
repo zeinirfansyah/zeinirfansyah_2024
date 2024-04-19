@@ -35,7 +35,9 @@ export const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+      <main>
+        <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+      </main>
       <Footer />
     </>
   );

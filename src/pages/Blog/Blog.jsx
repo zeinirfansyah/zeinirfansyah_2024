@@ -68,7 +68,7 @@ export const Blog = () => {
       className="bg-gradient-to-b from-antiFlashWhite to-white"
     >
       <div className="max-w-7xl mx-auto px-4 py-7">
-        <div className="flex flex-wrap justify-center items-center gap-4 min-h-[70vh]">
+        <div className="flex flex-wrap justify-center items-center gap-4">
           {posts.length > 0 ? (
             posts.map((post, index) => (
               <div key={post.id} data-aos="zoom-in-up" data-aos-duration="1000">
