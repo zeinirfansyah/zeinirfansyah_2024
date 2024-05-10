@@ -4,8 +4,15 @@ import Footer from "../components/Footer/Footer";
 import { Suspense, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useLocation } from "react-router-dom";
 
 export const Layout = ({ children }) => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   function navbarScroll() {
     const navbar = document.querySelector("header");
     if (
@@ -24,6 +31,7 @@ export const Layout = ({ children }) => {
     window.onscroll = function () {
       navbarScroll();
     };
+    
 
     AOS.init({
       duration: 1000,
