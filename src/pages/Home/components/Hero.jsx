@@ -24,7 +24,7 @@ export const Hero = () => {
           />
             <hr className="w-1/2 border-2 my-2 border-blueMunsell transition-all duration-500" />
           <h1 className="text-xl lg:text-3xl transition-all duration-500 text-center lg:text-start font-sans">SOFTWARE ENGINEER</h1>
-          <a href="mailto:mail@zeinirfansyah.me" className="flex justify-center items-center bg-blueMunsell border-2 border-blueMunsell text-white hover:rounded-xl hover:bg-antiFlashWhite hover:text-blueMunsell outline-2 outline-blueMunsell outline-dashed  outline-offset-4 transition-all duration-500 w-full lg:w-1/4 py-1 mt-2 ">
+          <a href="mailto:mail@zeinirfansyah.me, 12.zeinirfansyah@gmail.com" className="flex justify-center items-center bg-blueMunsell border-2 border-blueMunsell text-white hover:rounded-xl hover:bg-antiFlashWhite hover:text-blueMunsell outline-2 outline-blueMunsell outline-dashed  outline-offset-4 transition-all duration-500 w-full lg:w-1/4 py-1 mt-2 ">
             Let&apos;s Talk
           </a>
           <div
