@@ -11,7 +11,7 @@ export default function Footer() {
           <ul id="footer-contact" className="flex flex-col gap-2">
             <li className="text-[#B0B0B0]">
               <a
-                href="mailto:mail@zeinirfansyah.me"
+                href="mailto:mail@zeinirfansyah.me, 12.zeinirfansyah@gmail.com"
                 target="_blank"
                 className="hover:text-[#00C0E6] transition-all duration-500"
               >
