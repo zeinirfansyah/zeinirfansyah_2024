@@ -19,7 +19,7 @@ export default function Footer() {
               </a>
             </li>
             <li className="text-[#B0B0B0]">
-              © 2024 All rights reserved - Zein Irfansyah
+              © 2024 All rights reserved - Updated at 10 May 2024
             </li>
           </ul>
         </div>
