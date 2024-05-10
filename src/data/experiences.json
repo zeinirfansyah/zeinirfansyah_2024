@@ -1,6 +1,13 @@
 {
   "experiences": [
     {
+      "id": 5,
+      "title": "Project-Based Intern: Fullstack Developer",
+      "company": "Harisenin.com",
+      "period": "February 2024 - Present",
+      "description": "Leading a team, managing the development process, and participating in the programming of a web-based travel agency application."
+    },
+    {
       "id": 4,
       "title": "Web Developer",
       "company": "Freelance",
@@ -37,13 +44,6 @@
       "departement": "Fullstack Development Bootcamp",
       "period": "February 2024 - Present",
       "description": "Learn how to develop a fullstack web application and work together as a team to develop the project."
-    },
-    {
-      "id": 3,
-      "title": "Synrgy Academy",
-      "departement": "Mobile App Development Bootcamp",
-      "period": "September 2022 - December 2022 (DO)",
-      "description": "Learn how to develop android-based mobile applications using Kotlin."
     },
     {
       "id": 2,

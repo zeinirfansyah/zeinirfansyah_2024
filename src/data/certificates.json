@@ -2,28 +2,28 @@
   "certificates": [
     {
       "id": 11,
-      "title": "Belajar Membuat Aplikasi Web dengan React",
+      "title": "Create a Web Application with React",
       "company": "Dicoding Indonesia",
       "period": "November 2023",
       "description": "Mastering web frontend development with React JS, React UI Component, Stateful Compoenent, and Controlled Component."
     },
     {
       "id": 10,
-      "title": "Belajar Membuat Frontend Web untuk Pemula",
+      "title": "Create a Frontend Web Application for Beginner",
       "company": "Dicoding Indonesia",
       "period": "November 2023",
       "description": "Mastering Browser Object Model, Document Object Model, Event Handling, and Web Component, and Web Storage."
     },
     {
       "id": 9,
-      "title": "Belajar Dasar Pemrograman JavaScript",
+      "title": "The Basic of JavaScript Programming",
       "company": "Dicoding Indonesia",
       "period": "September 2023",
       "description": "Mastering basic JavaScript, data structure, object-oriented programming, functional programming, JavaScript module, error handling, asynchronous JavaScript, Node Package Manager, and unit testing using Jest."
     },
     {
       "id": 8,
-      "title": "Belajar Dasar Pemrograman Web",
+      "title": "The Basic of Web Programming",
       "company": "Dicoding Indonesia",
       "period": "September 2023",
       "description": "Mastering web application development using HTML, CSS, and Responsive Layout concept with Flexbox."

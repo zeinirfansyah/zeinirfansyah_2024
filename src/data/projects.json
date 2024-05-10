@@ -2,10 +2,10 @@
     "projects": [
       {
         "id": 6,
-        "title": "Shhh (On Going)",
-        "description": "Shhh is a social media platform designed to collect anonymous messages",
-        "tech-stack":"Breeze, Laravel",
-        "url": ""
+        "title": "BolangTravel App (Frontend)",
+        "description": "BolangTravel is an application for travel agents that allows customers to easily search, book, and manage their travel itineraries.",
+        "tech-stack":"React Js, Tailwind CSS, Zustand",
+        "url": "https://https://tugasakhiraplikasiwisata.tech/"
       },
       {
         "id": 5,
