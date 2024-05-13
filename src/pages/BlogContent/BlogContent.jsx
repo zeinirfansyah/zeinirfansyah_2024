@@ -6,6 +6,12 @@ export const BlogContent = () => {
   const { posts } = useBlogState();
   const post = usePost();
 
+  const currentIndex = posts.findIndex((p) => p.id === post?.id);
+
+  const nextPostId =
+    currentIndex < posts.length - 1 ? posts[currentIndex + 1].id : null;
+  const prevPostId = currentIndex > 0 ? posts[currentIndex - 1].id : null;
+
   return (
     <>
       <div className="blog max-w-4xl mx-auto px-4 py-12">
@@ -39,43 +45,15 @@ export const BlogContent = () => {
               className="blog-content"
             />
             <div className="flex justify-between gap-6 my-7">
-              {posts.length > 0 ? (
-                posts.map((post, index) => {
-                  const currentIndex = index;
-
-                  // Find next post index (if available)
-                  const nextPostIndex =
-                    currentIndex + 1 < posts.length ? currentIndex + 1 : null;
-
-                  // Find previous post index (if available)
-                  const prevPostIndex =
-                    currentIndex > 0 ? currentIndex - 1 : null;
-                  return (
-                    <>
-                      <div>
-                        {prevPostIndex !== null && (
-                          <Link
-                            className="btn btn-primary mr-2"
-                            to={`/blog/${posts[prevPostIndex].id}`}
-                          >
-                            Next Post
-                          </Link>
-                        )}
-
-                        {nextPostIndex !== null && (
-                          <Link
-                            className="btn btn-primary"
-                            to={`/blog/${posts[nextPostIndex].id}`}
-                          >
-                            Previous Post
-                          </Link>
-                        )}
-                      </div>
-                    </>
-                  );
-                })
-              ) : (
-                <p>No posts found.</p>
+              {nextPostId && (
+                <Link to={`/blog/${nextPostId}`} className="btn">
+                  Previous
+                </Link>
+              )}
+              {prevPostId && (
+                <Link to={`/blog/${prevPostId}`} className="btn">
+                  Next
+                </Link>
               )}
             </div>
           </div>
