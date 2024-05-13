@@ -20,7 +20,7 @@ export const Blog = () => {
   return (
     <div id="blogContentList" className="bg-gradient-to-b from-antiFlashWhite to-white">
       <div className="max-w-7xl mx-auto px-4 py-7">
-        <div className="flex flex-wrap justify-center items-center gap-4">
+        <div className="flex flex-wrap justify-center items-center gap-4 min-h-[70vh]">
           {isLoading ? (
             <p>Loading posts...</p>
           ) : error ? (

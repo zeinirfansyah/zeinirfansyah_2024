@@ -14,7 +14,7 @@ export const BlogContent = () => {
 
   return (
     <>
-      <div className="blog max-w-4xl mx-auto px-4 py-12">
+      <div className="blog max-w-4xl mx-auto px-4 py-12 min-h-[70vh]">
         {post && (
           <div className="flex flex-col gap-4">
             <header
